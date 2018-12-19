@@ -1,0 +1,97 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.header-inner .header-nav .active a{
+    color:#F99321!important
+}
+#logo img {
+    padding:10px !important;
+}
+.slider-wrapper .banner{
+    background-color:transparent !important;
+}
+.home-slider .is-outline{
+    border:2px solid #26abe0;
+}
+.home-slider a span{
+    color:#26abe0;
+}
+.home-3-boxs strong span{
+    color:#F99321!important
+}
+.home-section{
+    padding-top:30px;
+    padding-bottom:20px;
+}
+.home-section-bg{
+    background-color:#26abe0 !important;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+
+.home-section-bg .slider-nav-reveal .flickity-prev-next-button:hover, .slider-nav-reveal .flickity-prev-next-button{
+    background-color: transparent !important;
+    box-shadow: none !important;
+
+}
+.home-section-bg .slider-nav-reveal, .home-section .slider-nav-reveal{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.home-section-bg .grid-tools a{
+    background-color:#f99321 !important;
+}
+.home-section .quick-view, .home-section .product-category .box-text{
+    background-color:#f99321 !important;
+}
+
+.home-section{
+    padding-top:40px;
+    padding-bottom:20px;
+}
+.home-section-bg a,.home-section-bg p,.home-section-bg span,.home-section-bg .title-wrapper p{
+    color:#fff;
+}
+.about-us-banner{
+    background-color:transparent !important;
+}
+
+
+footer .footer-2{
+    background-color:#26abe0;
+}
+footer .absolute-footer{
+    background-color:#f99321;
+}
+footer .absolute-footer ul li,footer .absolute-footer .copyright-footer{
+    color:#fff;
+}
+footer .footer-1{
+    display:none;
+}
+@media screen and (max-width: 767px){
+    .home-section{
+        margin-left:11px;
+        padding:10px;
+    }
+    .about-slider-header{
+        margin-bottom:-65px;
+    }
+    .contact-map-add {
+        font-size:10px;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
